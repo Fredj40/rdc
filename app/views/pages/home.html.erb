@@ -1,0 +1,12 @@
+<h1>Pages#home</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+
+<p>Go to <%= link_to "Store", store_path %></p>
+
+<% if current_spree_user %>
+  <p>logged in as <%= current_spree_user.email %></p>
+  <%= button_to "Logout", logout_path, method: :delete %>
+<% else %>
+  <%= link_to "Login", login_path %>
+  <%= link_to "Create Account", signup_path %>
+<% end %>
