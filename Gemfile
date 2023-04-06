@@ -106,3 +106,5 @@ gem "solidus_paypal_commerce_platform", "~> 1.0"
 gem "dotenv-rails", groups: [:development, :test]
 gem "pg_search"
 gem "cloudinary"
+
+gem "solidus_stripe", "~> 4.4"

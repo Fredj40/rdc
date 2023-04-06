@@ -80,3 +80,15 @@ end
 # the class name:
 #
 # Spree::UserLastUrlStorer.rules << 'Spree::UserLastUrlStorer::Rules::AuthenticationRule'
+
+# Rails.application.config.to_prepare do
+#   Spree::Config.static_model_preferences.add(
+#     Spree::PaymentMethod::StripeCreditCard,
+#     'stripe_env_credentials',
+#     secret_key: ENV['STRIPE_SECRET_KEY'],
+#     publishable_key: ENV['STRIPE_PUBLISHABLE_KEY'],
+#     stripe_country: 'US',
+#     v3_elements: false,
+#     v3_intents: false
+#   )
+# end
