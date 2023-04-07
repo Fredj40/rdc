@@ -108,3 +108,4 @@ gem "pg_search"
 gem "cloudinary"
 
 gem "solidus_stripe", "~> 4.4"
+gem 'solidus_importer', github: 'solidusio-contrib/solidus_importer'
