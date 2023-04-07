@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/solidusio-contrib/solidus_importer.git
+  revision: 74399e7a3495c5d7b3341acfd2fb9f17e3ddacf8
+  specs:
+    solidus_importer (0.2.0)
+      solidus_core (>= 2.0.0, < 4)
+      solidus_support (~> 0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -516,6 +524,7 @@ DEPENDENCIES
   solidus_auth_devise (~> 2.5)
   solidus_backend
   solidus_core
+  solidus_importer!
   solidus_paypal_commerce_platform (~> 1.0)
   solidus_sample
   solidus_stripe (~> 4.4)
