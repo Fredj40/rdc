@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  # root 'pages#home'
-  # get "/store", to: 'home#index'
+  root 'pages#home'
+  get "/store", to: 'home#index'
 
-  root to: 'home#index'
+  # root to: 'home#index'
 
     mount SolidusPaypalCommercePlatform::Engine, at: '/solidus_paypal_commerce_platform'
 

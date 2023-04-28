@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-class CartsController < StoreController
+class CartsController <
+  Controller
   helper 'spree/products', 'orders'
 
   respond_to :html
